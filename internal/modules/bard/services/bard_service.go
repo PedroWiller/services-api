@@ -22,9 +22,6 @@ type Chatbot struct {
 var BardSession *gobard.Bard
 
 func Init() {
-	PSID := "ewh3T44S2fzbGKg0cwf_5a_6Um2f0CGZ8c7kOyU5q7xoRg03viWkPi1KUgRrLyGifAJw-w."
-	PSIDTS := "sidts-CjEBPVxjSorTZRDOwIAxbPCYshorilKHpXXQ5edldKLVwvHWELr5OKILZMoGnOe_CGMoEAA"
-
 	BardSession = gobard.New(env.PSID, env.PSIDTS)
 }
 
